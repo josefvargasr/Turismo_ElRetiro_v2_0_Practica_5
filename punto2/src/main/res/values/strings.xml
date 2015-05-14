@@ -1,0 +1,94 @@
+<resources>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_vista_activity">Turismo El Retiro v2.1</string>
+
+
+
+    <string name="principal">Página principal</string>
+
+    <string name="hoteles">Hoteles</string>
+    <string name="bares">Restaurantes y Bares</string>
+    <string name="sitios_turisticos">Sitios turísticos</string>
+    <string name="demografia">Demográfia</string>
+    <string name="acercade">Acerca De</string>
+
+    <string name="app_name">Turismo El Retiro v2.1</string>
+    <string name="principal_intro">El Retiro es conocido como la “Cuna de la libertad”, pues fue allí donde se realizó la
+        primera liberación de esclavos del país, en 1789.La arquitectura de pueblo tradicional que conserva El Retiro y su riqueza
+        histórica lo convierten en un lugar muy llamativo e interesante.</string>
+    <string name="principal_intro2">Visítalo y conoce la tradición de familias ebanistas que trabajan con perfección la madera;
+        puedes aprovechar para adquirir diversos objetos en este material.</string>
+    <string name="principal_intro3">Se llega por la Vía Las Palmas y está a solo 40 minutos de Medellín.</string>
+    <string name="distancia">Distancia: 32 km</string>
+    <string name="temp">Temperatura: 16°C</string>
+    <string name="altura">Altura SNM: 2.175 m</string>
+
+    <string name="title_activity_hoteles">Hoteles</string>
+    <string name="la_antigua">La Antigua</string>
+    <string name="la_antigua_info">El Hotel La Antigua está ubicado en la exclusiva zona histórica de El Retiro. Ubicado aproximadamente a 33 kilómetros de la ciudad de Medellín,
+    y entre esta ciudad y los municipios de Rionegro y La Ceja. Esta región es arquitectónicamente la más tradicional por su entorno entre el campo y la ciudad, con vías de doble calzada para un cómodo viaje.</string>
+    <string name="la_antigua_info2"> Cra. 21 N° 21 – 49 - El Retiro, Antioquia</string>
+    <string name="chaparral">El Chaparral</string>
+    <string name="chaparral_info">Hostal de 10 cabañas cada una tiene los servicios de baño privado con agua caliente, minibar, t.v por cable y servicios personalizado a la habitación, parrilla con gran diversidad de carnes
+    al carbón y leña, y una gran variedad de licores, pesca de portiva, alquiler de caballos y juegos recreativos para los niños.</string>
+    <string name="chaparral_info2">Kilometro 2 via la fe, El Retiro</string>
+    <string name="cabrero">El Cabrero</string>
+    <string name="cabrero_info">La Finca El Cabrero se encuentra ubicada a 15 km del centro de El Retiro. El Cabrero en Retiro cuenta con 16 habitaciónes con baño privado y conexión a internet. La Finca El Cabrero dispone
+    de cocina totalmente equipada, sala y terraza con maravillosa vista al lago. La Finca El Cabrero organiza excursiones para hacer senderismo por los distintos alrededores.</string>
+
+    <string name="title_activity_bares">Restaurantes y Bares</string>
+    <string name="deleite">Deleite - Comidas Bar</string>
+    <string name="deleite_info">Calle 19 # 20 – 11 Parque Principal</string>
+    <string name="guarceño">El Pilón Guarceño</string>
+    <string name="guarceño_info">Parque Principal</string>
+    <string name="serenata">Serenata Paisa</string>
+    <string name="serenata_info">Sector La Fe, Km 29 (Las Palmas)</string>
+
+    <string name="title_activity_sitios_turisticos">Sitios turísticos</string>
+    <string name="parquerepresa">Parque Los Salados, Represa La Fe</string>
+    <string name="parquerepresa_info">El centro de las actividades es la Represa de La Fe a la que se han sumado diversas atracciones para tu entretenimiento.
+    Este parque ofrece servicios de bicicletas acuáticas, zona de restaurantes, casetas con parrillas, tren, piscina, senderos ecológicos, y otros juegos infantiles en un agradable entorno natural.</string>
+    <string name="parquerepresa_info2">Se encuentra ubicado al borde de la carretera en la vía Las Palmas que une a Medellín con El Retiro.</string>
+    <string name="tequendamita">Salto El Tequendamita</string>
+    <string name="tequendamita_info">Es un atractivo de aguas cristalinas que toma su nombre de la similitud con el Salto del Tequendama, cerca a Bogotá, aunque mucho más pequeño.
+    Podrás admirar su cascada de más de 20 metros de altura, formada por la quebrada Don Diego.</string>
+    <string name="tequendamita_info2">Se encuentra a 7 kilómetros de la vía que conduce a La Ceja.</string>
+    <string name="iglesia">Iglesia Nuestra Señora del Rosario</string>
+    <string name="iglesia_info">La estructura de este templo se terminó de construir en 1774. En la cúpula interior del altar mayor sobresalen pinturas de los evangelistas San Juan, San Marcos, San Lucas y San Mateo.</string>
+    <string name="reserva">Reserva Ecológica San Sebastián La Castellana</string>
+    <string name="reserva_info">Es un complejo de siete miradores, desde donde podrás observar una bella panorámica del Valle de Aburrá, el Valle de San Nicolás y en días soleados, algunas montañas de Caldas, el Nevado del Ruiz y La Piedra de Guatapé.
+    Cuenta con una amplia diversidad de guaduales, flora y fauna, y una franja de bosque de niebla que aportan encanto al lugar.</string>
+    <string name="reserva_info2"> Se encuentra a 13 km en la vía hacia Medellín, tomando un atajo en la parcelación Portón de Las Flores.</string>
+
+    <string name="title_activity_demografia">Demográfia</string>
+    <string name="poblacion">Población</string>
+    <string name="poblacion2">Total: 17.858 hab. (2009)</string>
+    <string name="urbana">Urbana: 8.838</string>
+    <string name="rural">Rural: 9.020</string>
+    <string name="alfabetismo">Alfabetismo</string>
+    <string name="alfatotal">Total: 93.1% (2005)</string>
+    <string name="alfaurbano">En zona urbana: 95.3%</string>
+    <string name="alfarural">En zona rural: 90.9%</string>
+    <string name="etnografia">Etnografía</string>
+    <string name="etno">Según las cifras presentadas por el DANE del censo 2005:</string>
+    <string name="mestizos">Mestizos y Blancos: 99.9%</string>
+    <string name="afros">Afrocolombianos: 0.1%</string>
+
+    <string name="title_activity_acercade">Acerca De</string>
+    <string name="acerdade_intro1">Turismo El Retiro v2.1</string>
+    <string name="acerdade_intro2">Aplicación realizada por:</string>
+    <string name="acerdade_intro3">Jose Vargas</string>
+    <string name="acerdade_intro4">Universidad de Antioquia</string>
+    <string name="acerdade_intro5">2015</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
+

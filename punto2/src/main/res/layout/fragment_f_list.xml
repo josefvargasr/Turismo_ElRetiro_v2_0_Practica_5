@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.josevargas.punto2.f_list">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/android:list"
+        android:cacheColorHint="@color/purple"
+        android:layout_weight="1">
+    </ListView>
+
+</FrameLayout>

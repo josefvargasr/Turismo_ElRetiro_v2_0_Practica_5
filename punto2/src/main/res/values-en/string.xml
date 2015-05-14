@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="principal">Homepage</string>
+    <string name="title_activity_vista_activity">Tourism El Retiro v2.1</string>
+    <string name="hoteles">Hotels</string>
+    <string name="bares">Restaurants and Bars</string>
+    <string name="sitios_turisticos">Turist Places</string>
+    <string name="demografia">Demographics</string>
+    <string name="acercade">About</string>
+
+    <string name="app_name">Tourism El Retiro v2.1</string>
+    <string name="principal_intro">El Retiro is known as the "Cradle of Liberty" because it was there that the first release of slaves in the country was held in 1789.
+    The architecture of traditional village that preserves El Retiro and its rich history make it a very attractive place interesting.</string>
+    <string name="principal_intro2">Go and knows the tradition of cabinetmakers working families with wood perfection; you can take to acquire various objects in this material.</string>
+    <string name="principal_intro3">It is reached by the Via Las Palmas is just 40 minutes from Medellin.</string>
+    <string name="distancia">Distance: 32 km</string>
+    <string name="temp">Temperature: 16°C</string>
+    <string name="altura">Height: 2.175 m</string>
+
+    <string name="title_activity_hoteles">Hotels</string>
+    <string name="la_antigua">La Antigua</string>
+    <string name="la_antigua_info">The Hotel La Antigua is located in the exclusive historic area of El Retiro. Located approximately 33 kilometers from the city of Medellin, and between this city
+    and the municipalities of Rionegro and La Ceja. This region is architecturally the most traditional for its surroundings between town and country, with roads dual carriageway for a comfortable journey.</string>
+    <string name="la_antigua_info2"> Cra. 21 N° 21 – 49 - El Retiro, Antioquia</string>
+    <string name="chaparral">El Chaparral</string>
+    <string name="chaparral_info">10 guest cabins each with private bathroom services with hot water, minibar, cable TV and personalized service to the room, with great variety of grilled meats charcoal
+    and firewood, and a variety of spirits, athletic activities fishing, horse rental and games for children.</string>
+    <string name="chaparral_info2">Kilometer 2 way la fe, El Retiro</string>
+    <string name="cabrero">El Cabrero</string>
+    <string name="cabrero_info">El Cabrero is located 15 km from the center of El Retiro. El Cabrero has 16 rooms with private bathroom and free internet. El Cabrero has a fully equipped kitchen, living room
+    and terrace with wonderful lake view. El Cabrero organizes activities like hiking in the different surroundings.</string>
+
+    <string name="title_activity_bares">Restaurants y Bars</string>
+    <string name="deleite">Deleite - Comidas Bar</string>
+    <string name="deleite_info">Street 19 # 20 – 11 Principal park</string>
+    <string name="guarceño">El Pilón Guarceño</string>
+    <string name="guarceño_info">Principal park</string>
+    <string name="serenata">Serenata Paisa</string>
+    <string name="serenata_info">La Fe Sector, Km 29 (Las Palmas)</string>
+
+    <string name="title_activity_sitios_turisticos">Turistics Places</string>
+    <string name="parquerepresa">Los Salados Park , La Fe Reservoir</string>
+    <string name="parquerepresa_info">The center of activities is the dam of La Fe to which have been added several attractions for your entertainment.
+    This park offers water bicycle, area restaurants, stands with grills, train, swimming, nature trails and other playground in a pleasant natural environment.</string>
+    <string name="parquerepresa_info2">It is located on the edge of the road on the road linking Las Palmas Medellin with El Retiro.</string>
+    <string name="tequendamita">El Tequendamita</string>
+    <string name="tequendamita_info">It is an attractive crystalline water that takes its name from the similarity to the Tequendama Falls near Bogota, though much smaller.
+    Admire its waterfall of over 20 meters high, formed by the stream Don Diego.</string>
+    <string name="tequendamita_info2">It is 7 kilometers from the road to La Ceja.</string>
+    <string name="iglesia">Church Nuestra Señora del Rosario</string>
+    <string name="iglesia_info">The structure of this temple was completed in 1774. In the inner dome protruding altar paintings of the Evangelists San Juan, San Marcos, San Lucas and San Mateo.</string>
+    <string name="reserva">Ecological reserve San Sebastián La Castellana</string>
+    <string name="reserva_info">It is a complex of seven viewpoints, from where you can see a beautiful view of the Aburrá Valley, the Valley of San Nicholas and on sunny days, some mountains
+    of Caldas, the Nevado del Ruiz and stone Guatapé.Cuenta with a wide variety of guaduales, flora and fauna, and a strip of cloud forest that add charm to the place.</string>
+    <string name="reserva_info2">It is 13 km on the road to Medellin, taking a shortcut in the subdivision gate of Las Flores.</string>
+
+    <string name="title_activity_demografia">Demographics</string>
+    <string name="poblacion">Population</string>
+    <string name="poblacion2">Total: 17.858 hab. (2009)</string>
+    <string name="urbana">Town: 8.838</string>
+    <string name="rural">Rural: 9.020</string>
+    <string name="alfabetismo">Literacy</string>
+    <string name="alfatotal">Total: 93.1% (2005)</string>
+    <string name="alfaurbano">Town: 95.3%</string>
+    <string name="alfarural">Rural: 90.9%</string>
+    <string name="etnografia">Ethnography</string>
+    <string name="etno">According to figures presented by DANE Census 2005:</string>
+    <string name="mestizos">Mestizos and Whites: 99.9%</string>
+    <string name="afros">Afro: 0.1%</string>
+
+    <string name="title_activity_acercade">About</string>
+    <string name="acerdade_intro1">Tourism El Retiro v2.1</string>
+    <string name="acerdade_intro2">Application by:</string>
+    <string name="acerdade_intro3">Jose Vargas</string>
+    <string name="acerdade_intro4">University of Antioquia</string>
+    <string name="acerdade_intro5">2015</string>
+
+</resources>
