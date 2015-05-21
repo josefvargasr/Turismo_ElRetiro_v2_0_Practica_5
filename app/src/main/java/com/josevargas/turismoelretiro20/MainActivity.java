@@ -10,6 +10,8 @@ import android.view.MenuItem;
 
 public class MainActivity extends ActionBarActivity {
 
+    int frag;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,9 +25,47 @@ public class MainActivity extends ActionBarActivity {
 
         principal fragment = new principal();
         fragmentTransaction.replace(android.R.id.content, fragment).commit();
+        frag=1;
     }
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("fragm",frag);
+    }
 
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        frag=savedInstanceState.getInt("fragm");
+        FragmentManager fragmentManager = getFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        if (frag == 1) {
+            principal fragment = new principal();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=1;
+        }
+        if (frag == 2) {
+            hoteles fragment = new hoteles();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=2;
+        }
+        if (frag == 3) {
+            bares fragment = new bares();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=3;
+        }
+        if (frag == 4) {
+            demografia fragment = new demografia();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=4;
+        }
+        if (frag == 5) {
+            sitios_turisticos fragment = new sitios_turisticos();
+            fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=5;
+        }
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -47,33 +87,37 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.menu_principal) {
             principal fragment = new principal();
             fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=1;
             return true;
         }
         if (id == R.id.menu_hoteles) {
             hoteles fragment = new hoteles();
             fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=2;
             return true;
         }
         if (id == R.id.menu_bares) {
             bares fragment = new bares();
             fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=3;
             return true;
         }
         if (id == R.id.menu_demografia) {
             demografia fragment = new demografia();
             fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=4;
             return true;
         }
         if (id == R.id.menu_sitios_turisticos) {
             sitios_turisticos fragment = new sitios_turisticos();
             fragmentTransaction.replace(android.R.id.content, fragment).commit();
+            frag=5;
             return true;
         }
         if (id == R.id.menu_acercade) {
             new acercade();
             acercade dialogFragment = acercade.newInstance(getResources().getString(R.string.acercade));
             dialogFragment.show(getFragmentManager(), "dialog");
-
             return true;
         }
 
