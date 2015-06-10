@@ -1,7 +1,8 @@
 <resources>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Mapa</string>
 
     <string name="principal">Página principal</string>
+
 
     <string name="hoteles">Hoteles</string>
     <string name="bares">Restaurantes y Bares</string>
@@ -77,6 +78,7 @@
     <string name="acerdade_intro3">Jose Vargas</string>
     <string name="acerdade_intro4">Universidad de Antioquia</string>
     <string name="acerdade_intro5">2015</string>
+
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

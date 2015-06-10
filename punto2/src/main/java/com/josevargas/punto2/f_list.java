@@ -26,12 +26,11 @@ public class f_list extends ListFragment {
 
         String[] listItems = new String[] { getResources().getString(R.string.principal),getResources().getString(R.string.hoteles),
                 getResources().getString(R.string.bares),getResources().getString(R.string.sitios_turisticos),
-                getResources().getString(R.string.demografia),getResources().getString(R.string.acercade) };
+                getResources().getString(R.string.demografia), getResources().getString(R.string.action_settings),getResources().getString(R.string.acercade) };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_list_item_1, listItems);
         setListAdapter(adapter);
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
@@ -73,6 +72,10 @@ public class f_list extends ListFragment {
                     fragmentTransaction.replace(R.id.container, fragment4).commit();
                     break;
                 case 5:
+                    mapa2 fragment5 = new mapa2();
+                    fragmentTransaction.replace(R.id.container, fragment5).commit();
+                    break;
+                case 6:
                     new acercade();
                     acercade dialogFragment = acercade.newInstance(getResources().getString(R.string.acercade));
                     dialogFragment.show(getFragmentManager(), "dialog");
@@ -83,16 +86,24 @@ public class f_list extends ListFragment {
             //fragment.establecerTexto(registro);
             //fragment.cambiarFragment(pos);
         }else {
-            if(pos==5) {
-                new acercade();
-                acercade dialogFragment = acercade.newInstance(getResources().getString(R.string.acercade));
-                dialogFragment.show(getFragmentManager(), "dialog");
-            }else {
-                Intent intent = new Intent(getActivity().getApplicationContext(), Vista_activity.class);
-                intent.putExtra("texto", registro);
-                intent.putExtra("pos", pos);
-                startActivity(intent);
+            switch(pos){
+                case 5:
+                    Intent intent = new Intent(getActivity().getApplicationContext(), mapa.class);
+                    startActivity(intent);
+                    break;
+                case 6:
+                    new acercade();
+                    acercade dialogFragment = acercade.newInstance(getResources().getString(R.string.acercade));
+                    dialogFragment.show(getFragmentManager(), "dialog");
+                    break;
+                default:
+                    Intent intent0 = new Intent(getActivity().getApplicationContext(), Vista_activity.class);
+                    intent0.putExtra("texto", registro);
+                    intent0.putExtra("pos", pos);
+                    startActivity(intent0);
+                    break;
             }
+
         }
     }
 }
